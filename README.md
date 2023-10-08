@@ -47,6 +47,10 @@ For more information about the OMDB API, visit [OMDB API Documentation](https://
 
 The list of favorite movies is stored in the browser's local storage, ensuring it is retained across sessions.
 
+## Hosted Link
+
+https://jimmy-47.github.io/imdb-clone/
+
 
 
 
