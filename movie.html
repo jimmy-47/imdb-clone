@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Details</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Custom CSS styles -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Favicon with an emoji (film reel) -->
+    <link rel="icon" href="./icon.png" type="image/icon type">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="./icon.png" /></a>
+            <!-- Collapsible navigation menu -->
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <!-- Home link -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <!-- Favorites link -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="favourites.html">Favorites</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Movie Details Heading -->
+    <h2>Movie Details:</h2>
+    <br/>
+    <!-- Container for displaying movie details -->
+    <div class="container mt-5" id="movieDetails"></div>
+
+    <!-- JavaScript for movie details -->
+    <script src="movie.js"></script>
+</body>
+</html>
